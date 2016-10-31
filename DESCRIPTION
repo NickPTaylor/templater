@@ -1,0 +1,18 @@
+Package: templater
+Type: Package
+Title: Transfer Data from an Spreadsheet to Template Report Document
+Version: 0.0.0.9000
+Authors@R: person("Nick", "Taylor", email = "nicholas.taylor@doosan.com", 
+                 role = c("aut", "cre"))
+Description: The package provides tools for transferring data from a MS Excel
+    spreadsheet to an MS Word report template.  The word template should contain
+    'bookmarks'; the header column in the Excel spreadsheet are mapped to these
+    'bookmarks' and values at the bookmarks replaced by the relevent Excel cell
+    data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    testthat,
+    covr
+RoxygenNote: 5.0.1
